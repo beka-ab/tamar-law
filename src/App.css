@@ -732,3 +732,89 @@ textarea.form-input {
 .app {
   width: 100%;
 }
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 4%;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .nav-logo img {
+    height: 36px;
+  }
+
+  .nav-logo-name {
+    font-size: 11px;
+    max-width: 180px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-cta {
+    font-size: 11px;
+    padding: 6px 12px;
+  }
+
+  .hero {
+    padding: 140px 6% 60px;
+  }
+
+  .hero-headline {
+    font-size: 32px;
+  }
+
+  .hero-body {
+    font-size: 16px;
+  }
+
+  .hero-stats {
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .stat-num {
+    font-size: 28px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .services-intro {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  section {
+    padding: 60px 6%;
+  }
+}
