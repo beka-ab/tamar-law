@@ -87,7 +87,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
+  height: 100px;
   backdrop-filter: blur(8px);
 }
 
@@ -98,10 +98,10 @@ body {
 }
 
 .nav-logo img {
-  height: 68px;
+  height: 90px;
   width: auto;
   object-fit: contain;
-  filter: brightness(1.15);
+  filter: brightness(1.2);
 }
 
 .nav-logo-text {
@@ -214,7 +214,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding: 120px 10% 80px;
+  padding: 150px 10% 80px;
   background:
     linear-gradient(160deg, rgba(13, 27, 46, 0.98) 55%, rgba(22, 37, 64, 0.97)),
     repeating-linear-gradient(
