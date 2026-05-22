@@ -29,6 +29,9 @@ export default function Navbar({ t, lang, setLang }) {
               <a href="#services">{t.nav.services}</a>
             </li>
             <li>
+              <a href="#blog">{t.nav.blog}</a>
+            </li>
+            <li>
               <a href="#team">{t.nav.team}</a>
             </li>
             <li>

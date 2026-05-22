@@ -3,6 +3,7 @@ export const translations = {
     nav: {
       about: "ჩვენ შესახებ",
       services: "სერვისები",
+      blog: "ბლოგი",
       team: "გუნდი",
       contact: "კონტაქტი",
       consultation: "კონსულტაცია",
@@ -163,6 +164,7 @@ export const translations = {
     nav: {
       about: "About",
       services: "Services",
+      blog: "Blog",
       team: "Team",
       contact: "Contact",
       consultation: "Consultation",
@@ -323,6 +325,7 @@ export const translations = {
     nav: {
       about: "О нас",
       services: "Услуги",
+      blog: "Блог",
       team: "Команда",
       contact: "Контакт",
       consultation: "Консультация",
@@ -484,6 +487,7 @@ export const translations = {
     nav: {
       about: "Hakkımızda",
       services: "Hizmetler",
+      blog: "Blog",
       team: "Ekip",
       contact: "İletişim",
       consultation: "Danışma",
