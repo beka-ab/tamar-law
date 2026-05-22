@@ -8,6 +8,10 @@ export default function About({ t }) {
         <div className="about-text">
           <p>{t.about.p1}</p>
           <p>{t.about.p2}</p>
+          <p>{t.about.p3}</p>
+          <p>{t.about.p4}</p>
+          <p>{t.about.p5}</p>
+          <p>{t.about.p6}</p>
 
           <div className="about-values">
             <div className="value-item">
@@ -36,7 +40,7 @@ export default function About({ t }) {
 
         <div className="about-visual">
           <div className="about-quote">{t.about.quote}</div>
-          <div className="about-attribution">— William Blackstone</div>
+          <div className="about-attribution">— თამარ ხაჩირაშვილი</div>
           <div className="about-corner"></div>
         </div>
       </div>

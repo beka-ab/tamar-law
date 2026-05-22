@@ -14,6 +14,7 @@ import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import "./App.css";
 import { translations } from "./translations/index";
+import Blog from "./components/Blog.jsx";
 
 function App() {
   const [lang, setLang] = useState("ka");
@@ -25,6 +26,7 @@ function App() {
       <Hero t={t} />
       <About t={t} />
       <Services t={t} />
+      <Blog t={t} />
       <Team t={t} />
       <Contact t={t} />
       <Footer t={t} />

@@ -9,9 +9,8 @@ export default function Contact({ t }) {
     message: "",
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e) =>
     setForm({ ...form, [e.target.name]: e.target.value });
-  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -19,11 +18,13 @@ export default function Contact({ t }) {
     setForm({ fname: "", lname: "", email: "", area: "", message: "" });
   };
 
+  const phone = "995599000000";
+  const phoneDisplay = "+995 599 000 000";
+
   return (
     <section className="contact" id="contact">
       <p className="section-tag">{t.contact.tag}</p>
       <h2 className="section-title">{t.contact.title}</h2>
-
       <div className="contact-grid">
         <div className="contact-info">
           <div>
@@ -32,7 +33,7 @@ export default function Contact({ t }) {
           </div>
           <div>
             <div className="contact-label">{t.contact.phoneLabel}</div>
-            <div className="contact-val">+995 5XX XXX XXX</div>
+            <div className="contact-val">{phoneDisplay}</div>
           </div>
           <div>
             <div className="contact-label">{t.contact.emailLabel}</div>
@@ -41,6 +42,52 @@ export default function Contact({ t }) {
           <div>
             <div className="contact-label">{t.contact.hoursLabel}</div>
             <div className="contact-val">{t.contact.hoursVal}</div>
+          </div>
+          <div>
+            <div className="contact-label">{t.contact.connectTitle}</div>
+            <div className="contact-buttons">
+              <a
+                href={"tel:+" + phone}
+                className="contact-btn contact-btn-call"
+              >
+                📞 Call
+              </a>
+              <a
+                href={"https://wa.me/" + phone}
+                target="_blank"
+                rel="noreferrer"
+                className="contact-btn contact-btn-whatsapp"
+              >
+                WhatsApp
+              </a>
+              <a
+                href={"viber://chat?number=" + phone}
+                className="contact-btn contact-btn-viber"
+              >
+                Viber
+              </a>
+            </div>
+          </div>
+          <div>
+            <div className="contact-label">{t.contact.followTitle}</div>
+            <div className="contact-social">
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noreferrer"
+                className="social-btn"
+              >
+                Facebook
+              </a>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noreferrer"
+                className="social-btn"
+              >
+                Instagram
+              </a>
+            </div>
           </div>
         </div>
 
@@ -67,7 +114,6 @@ export default function Contact({ t }) {
               />
             </div>
           </div>
-
           <div className="form-group">
             <label className="form-label">{t.contact.email}</label>
             <input
@@ -78,7 +124,6 @@ export default function Contact({ t }) {
               onChange={handleChange}
             />
           </div>
-
           <div className="form-group">
             <label className="form-label">{t.contact.area}</label>
             <select
@@ -95,7 +140,6 @@ export default function Contact({ t }) {
               ))}
             </select>
           </div>
-
           <div className="form-group">
             <label className="form-label">{t.contact.message}</label>
             <textarea
@@ -105,7 +149,6 @@ export default function Contact({ t }) {
               onChange={handleChange}
             />
           </div>
-
           <button className="form-submit" type="submit">
             {t.contact.send}
           </button>

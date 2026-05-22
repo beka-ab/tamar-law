@@ -17,33 +17,28 @@ export default function Navbar({ t, lang, setLang }) {
 
       <nav className="navbar">
         <a href="#hero" className="nav-logo">
-          <img src={logo} alt="Tamar Khachirashvili Law Office Logo" />
-          <div className="nav-logo-text">
-            <span className="nav-logo-name">
-              თამარ ხაჩირაშვილის საადვოკატო ბიურო
-            </span>
-            <span className="nav-logo-sub">Legal Services · Tbilisi</span>
-          </div>
+          <img src={logo} alt="Logo" />
         </a>
 
-        <ul className="nav-links">
-          <li>
-            <a href="#about">{t.nav.about}</a>
-          </li>
-          <li>
-            <a href="#services">{t.nav.services}</a>
-          </li>
-          <li>
-            <a href="#team">{t.nav.team}</a>
-          </li>
-          <li>
-            <a href="#contact">{t.nav.contact}</a>
-          </li>
-        </ul>
-
-        <a href="#contact" className="nav-cta">
-          {t.nav.consultation}
-        </a>
+        <div className="nav-right">
+          <ul className="nav-links">
+            <li>
+              <a href="#about">{t.nav.about}</a>
+            </li>
+            <li>
+              <a href="#services">{t.nav.services}</a>
+            </li>
+            <li>
+              <a href="#team">{t.nav.team}</a>
+            </li>
+            <li>
+              <a href="#contact">{t.nav.contact}</a>
+            </li>
+          </ul>
+          <a href="#contact" className="nav-cta">
+            {t.nav.consultation}
+          </a>
+        </div>
       </nav>
     </>
   );
