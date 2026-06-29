@@ -39,12 +39,9 @@ export default function Services({ t }) {
 
   return (
     <section className="services" id="services">
-      <div className="services-intro">
-        <div>
-          <p className="section-tag">{t.services.tag}</p>
-          <h2 className="section-title">{t.services.title}</h2>
-        </div>
-        <p className="services-desc">{t.services.desc}</p>
+      <div className="services-intro-centered">
+        <p className="section-tag">{t.services.tag}</p>
+        <h2 className="section-title">{t.services.title}</h2>
       </div>
 
       <div className="services-grid">

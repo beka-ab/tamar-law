@@ -14,6 +14,7 @@ import Blog from "./components/Blog.jsx";
 import Team from "./components/Team.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
+import FloatingWhatsApp from "./components/FloatingWhatsApp.jsx";
 import "./App.css";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Team t={t} />
       <Contact t={t} />
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 }

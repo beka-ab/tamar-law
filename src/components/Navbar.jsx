@@ -3,6 +3,10 @@ import logo from "../assets/logo.png";
 export default function Navbar({ t, lang, setLang }) {
   return (
     <>
+      <div className="location-bar">
+        📍 თბილისი · ბათუმი &nbsp;|&nbsp; Tbilisi · Batumi
+      </div>
+
       <div className="lang-bar">
         {["ka", "en", "ru", "tr"].map((l) => (
           <button

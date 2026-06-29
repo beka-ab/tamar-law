@@ -18,8 +18,8 @@ export default function Contact({ t }) {
     setForm({ fname: "", lname: "", email: "", area: "", message: "" });
   };
 
-  const phone = "995599000000";
-  const phoneDisplay = "+995 599 000 000";
+  const phone = "+995 595 037 177";
+  const phoneDisplay = "995595 037 177";
 
   return (
     <section className="contact" id="contact">
@@ -37,7 +37,7 @@ export default function Contact({ t }) {
           </div>
           <div>
             <div className="contact-label">{t.contact.emailLabel}</div>
-            <div className="contact-val">info@khachirashvili.ge</div>
+            <div className="contact-val">tamarkhachirashvili5@gmail.com </div>
           </div>
           <div>
             <div className="contact-label">{t.contact.hoursLabel}</div>
@@ -72,7 +72,7 @@ export default function Contact({ t }) {
             <div className="contact-label">{t.contact.followTitle}</div>
             <div className="contact-social">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/people/%E1%83%90%E1%83%93%E1%83%95%E1%83%9D%E1%83%99%E1%83%90%E1%83%A2%E1%83%98-%E1%83%97%E1%83%90%E1%83%9B%E1%83%90%E1%83%A0-%E1%83%AE%E1%83%90%E1%83%A9%E1%83%98%E1%83%A0%E1%83%90%E1%83%A8%E1%83%95%E1%83%98%E1%83%9A%E1%83%98Lawyer-Tamar-Khachirashvili/100041307078223/?mibextid=wwXIfr&rdid=xBJF9gGTe3L0eimX&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1BRDNxia5M%2F%3Fmibextid%3DwwXIfr"
                 target="_blank"
                 rel="noreferrer"
                 className="social-btn"

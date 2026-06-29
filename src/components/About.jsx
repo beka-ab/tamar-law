@@ -1,10 +1,19 @@
+import aboutPhoto from "../assets/Photo.jpg";
+
 export default function About({ t }) {
   return (
     <section className="about" id="about">
       <p className="section-tag">{t.about.tag}</p>
-      <h2 className="section-title">{t.about.title}</h2>
 
       <div className="about-grid">
+        <div className="about-photo-wrap">
+          <img
+            src={aboutPhoto}
+            alt="Tamar Khachirashvili Juridical Bureau"
+            className="about-photo"
+          />
+        </div>
+
         <div className="about-text">
           <p>{t.about.p1}</p>
           <p>{t.about.p2}</p>
@@ -36,12 +45,6 @@ export default function About({ t }) {
               </div>
             </div>
           </div>
-        </div>
-
-        <div className="about-visual">
-          <div className="about-quote">{t.about.quote}</div>
-          <div className="about-attribution">— თამარ ხაჩირაშვილი</div>
-          <div className="about-corner"></div>
         </div>
       </div>
     </section>

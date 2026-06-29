@@ -24,23 +24,22 @@ export const translations = {
     },
     about: {
       tag: "ბიუროს შესახებ",
-      title: "თამარ ხაჩირაშვილის საადვოკატო ბიურო",
-      p1: "„თამარ ხაჩირაშვილის საადვოკატო ბიურო უზრუნველყოფს კვალიფიციური იურიდიული მომსახურების ფართო სპექტრს როგორც ადგილობრივი, ისე უცხოელი ფიზიკური პირების, იურიდიული პირებისა და ორგანიზაციებისათვის.",
-      p2: "თამარ ხაჩირაშვილი არის ამ საერთო პრაქტიკის საადვოკატო ბიუროს დამფუძნებელი და 15 წელია აქტიურად არის ჩართული სამართლებრივ ადვოკატირებაში.",
-      p3: "ბიუროში დასაქმებულნი არიან მაღალკვალიფიციური, მრავალპროფილიანი და გამოცდილი პრაქტიკოსი ადვოკატები.",
-      p4: "ბიუროს პრაქტიკა მოიცავს სისხლის, სამოქალაქო, ადმინისტრაციულ, საერთაშორისო, საკონსტიტუციო, კორპორაციულ, შრომით, საგადასახადო და სხვა სამართლის დარგებს.",
-      p5: "ეთიკური ნორმების სრული დაცვით, ბიუროს ადვოკატები იცავენ და წარმოადგენენ კლიენტთა ინტერესებს საგამოძიებო ორგანოებში, ყველა ინსტანციის სასამართლოებში, მედიაციაში, არბიტრაჟსა და ყველა სხვა უწყებაში.",
-      p6: "ბიურო უზრუნველყოფს იურიდიულ კონსულტაციას ქართულ, რუსულ და ინგლისურ ენებზე.",
-      p7: "ჩვენი წარმატება თქვენი სასურველი შედეგია...",
-      v1title: "დამოუკიდებლობა და ნდობა",
+      p1: '"თამარ ხაჩირაშვილის საადვოკატო ბიურო" გთავაზობთ კვალიფიციურ იურიდიული მომსახურების ფართო სპექტრს ადგილობრივ და უცხოურ, როგორც ფიზიკურ, ასევე იურიდიულ პირებსა და ორგანიზაციებს.',
+      p2: "თამარ ხაჩირაშვილი საერთო სპეციალიზაციის მქონე საადვოკატო ბიუროს დამფუძნებელი ადვოკატია და 15 წლის მანძილზე ეწევა საადვოკატო საქმიანობას. ბიურო დაკომპლექტებულია კვალიფიციური, მრავალპროფილური და გამოცდილი პრაქტიკოსი ადვოკატებით, რომლებიც წლების განმავლობაში სარგებლობენ მაღალი რეპუტაციითა და სანდოობით.",
+      p3: "საადვოკატო ბიუროს საქმიანობა მოიცავს სისხლის, სამოქალაქო, ადმინისტრაციული, საერთაშორისო, საკონსტიტუციო, საკორპორაციო, შრომის, საგადასახადო და სხვა სამართლის სფეროებს. ბიუროს ყველა ადვოკატ პარტნიორს მინიჭებული აქვს არასრულწლოვანთა მართლმსაჯულების პროცესის მწარმოებელი პირის სპეციალიზაცია და გააჩნია მრავალწლიანი გამოცდილება არასრულწლოვანთა მართლმსაჯულების სფეროში, როგორც სისხლის სამართლის, ისე სამოქალაქო სამართლის მიმართულებით.",
+      p4: "საადვოკატო ბიუროს ადვოკატები საზოგადოების წინაშე დაკისრებული პროფესიული და ზნეობრივი ნორმების გათვალისწინებით, ეთიკის ნორმების სრული დაცვითა და პროფესიული ღირსების მაღალი სტანდარტით იცავენ და წარმოადგენენ კლიენტის ინტერესებს საგამოძიებო ორგანოებში, ყველა ინსტანციის სასამართლოში, მედიაციაში, არბიტრაჟსა და ყველა სხვა ორგანოსა და დაწესებულებაში.",
+      p5: "საადვოკატო ბიურო შესაბამისი პროფილის მქონე ადვოკატის ხელმძღვანელობით უზრუნველყოფს სამართლებრივი დასკვნებისა და რეკომენდაციების შემუშავება/მომზადებას, კლიენტის ინტერესებზე ორიენტირებულ ხელშეკრულებებისა და ბიზნეს გარიგებების შედგენას, მესამე პირებთან წარმომადგენლობასა და მოლაპარაკებების პროცესში ჩართულობას.",
+      p6: "ჩვენი ადვოკატები კლიენტს სთავაზობენ ინდივიდუალურ სტრატეგიულ დაცვის გეგმას და სამართლებრივი პრობლემის გადაჭრის ეფექტურ ხერხებსა და მეთოდებს. საადვოკატო ბიურო კლიენტებს უწევს იურიდიულ კონსულტაციას სამართლის ყველა დარგში ქართულ, რუსულ, ინგლისურ ენებზე, ასევე ელექტრონული პორტალის საშუალებით.",
+      v1title: "თქვენი საიმედო დასაყრდენი სამართლის ნებისმიერ სფეროში.",
       v1desc:
-        "ხელმძღვანელობს დამოუკიდებლობის, ნდობის, კონფიდენციალობისა და კლიენტის ინტერესების პრიორიტეტის პრინციპებით.",
-      v2title: "სტრატეგიული დაცვა",
+        "ხელმძღვანელობს დამოუკიდებლობის, ნდობის, კონფიდენციალურობისა და კლიენტის ინტერესების პრიორიტეტულობის პრინციპებით.",
+      v2title: "რთული სიტუაციებიდან — მარტივ იურიდიულ გადაწყვეტამდე.",
       v2desc:
-        "ინდივიდუალური სტრატეგიული დაცვის გეგმა სამართლებრივი პრობლემების გადაჭრის ეფექტური გზებით.",
-      v3title: "მრავალენოვანი მომსახურება",
-      v3desc: "იურიდიული კონსულტაცია ქართულ, რუსულ და ინგლისურ ენებზე.",
-      quote: "ჩვენი წარმატება თქვენი სასურველი შედეგია...",
+        "ინდივიდუალური სტრატეგიული დაცვის გეგმა სამართლებრივი პრობლემების გადაჭრის ეფექტური მეთოდებით.",
+      v3title:
+        "ინტელექტი, სტრატეგია, შედეგი — ნებისმიერ იურიდიულ დავაში. ნდობა. პროფესიონალიზმი. შედეგი",
+      v3desc:
+        "იურიდიული კონსულტაცია ქართულ, რუსულ და ინგლისურ ენებზე, ასევე ელექტრონული პორტალის საშუალებით.",
     },
     services: {
       tag: "სამართლის სფეროები",
@@ -83,15 +82,17 @@ export const translations = {
       tag: "ჩვენი ადვოკატები",
       title: "გუნდს გაიცანით",
       m1name: "თამარ ხაჩირაშვილი",
-      m1role: "დამფუძნებელი ადვოკატი",
       m1bio:
         "კვალიფიციური ადვოკატი 15+ წლიანი გამოცდილებით კორპორაციულ, სისხლის სამართლის და სამოქალაქო საქმეებში.",
-      m2name: "თქვენი სახელი",
-      m2role: "უფროსი ადვოკატი",
-      m2bio: "გსურთ გუნდის გაფართოება? დაუკავშირდით ბიუროს.",
-      m3name: "თქვენი სახელი",
-      m3role: "ასოცირებული ადვოკატი",
-      m3bio: "ბიოგრაფია განახლდება.",
+      m2name: "ირაკლი ხიმშიაშვილი",
+      m2bio:
+        "გამოცდილი ადვოკატი, რომელიც სარგებლობს მაღალი რეპუტაციითა და სანდოობით.",
+      m3name: "მეგი აბულაძე",
+      m3bio:
+        "კვალიფიციური ადვოკატი, რომელიც კლიენტებს სთავაზობს ინდივიდუალურ სტრატეგიულ მიდგომას.",
+      m4name: "ნანო ლიპარტია",
+      m4bio:
+        "გამოცდილი ადვოკატი, რომელიც იცავს კლიენტთა ინტერესებს ყველა ინსტანციის სასამართლოში.",
     },
     contact: {
       tag: "დაგვიკავშირდით",
@@ -132,7 +133,7 @@ export const translations = {
     blog: {
       tag: "ბლოგი",
       title: "სამართლებრივი სტატიები",
-      desc: "სამართლებრივი სიახლეები, გარჩევები და პრაქტიკული რჩევები.",
+      desc: "სამართლებრივი სიახლეები და პრაქტიკული რჩევები.",
       readMore: "სრულად წაკითხვა",
       posts: [
         {
@@ -185,23 +186,21 @@ export const translations = {
     },
     about: {
       tag: "About the Office",
-      title: "Tamar Khachirashvili Juridical Bureau",
-      p1: '"Tamar Khachirashvili Juridical Bureau" offers a wide range of qualified legal services to both local and foreign individuals, legal entities, and organizations.',
-      p2: "Tamar Khachirashvili is the founder of this general practice law bureau and has been actively engaged in legal advocacy for 15 years.",
-      p3: "The bureau is staffed with highly qualified, multi-profile, and experienced practicing attorneys who have enjoyed a high reputation and trust over the years.",
-      p4: "The bureau's practice covers criminal, civil, administrative, international, constitutional, corporate, labor, tax, and other fields of law. All partner attorneys hold specialized certifications in juvenile justice administration.",
-      p5: "With full compliance with ethical norms and high standards of professional dignity, the bureau's attorneys protect and represent client interests before investigative bodies, courts of all instances, mediation, arbitration, and all other agencies.",
-      p6: "The bureau provides legal consultation in Georgian, Russian, and English languages, and ensures qualified legal consultation via an electronic portal.",
-      p7: "Our success is your desired outcome...",
+      p1: '"Tamar Khachirashvili Juridical Bureau" offers a wide range of qualified legal services to local and foreign individuals, legal entities, and organizations.',
+      p2: "Tamar Khachirashvili is the founding attorney of this general practice law bureau and has been engaged in legal advocacy for 15 years. The bureau is staffed with qualified, multi-profile, and experienced practicing attorneys who have enjoyed high reputation and trust over the years.",
+      p3: "The bureau's practice covers criminal, civil, administrative, international, constitutional, corporate, labor, tax, and other fields of law. All partner attorneys hold specialization as juvenile justice process officials and have extensive experience in juvenile justice, both in criminal and civil law directions.",
+      p4: "Considering their professional and moral obligations to society, the bureau's attorneys, in full compliance with ethical standards and high professional dignity, protect and represent client interests before investigative bodies, courts of all instances, mediation, arbitration, and all other agencies and institutions.",
+      p5: "Under the guidance of an attorney of the relevant profile, the bureau provides the development of legal opinions and recommendations, drafting of client-oriented contracts and business deals, and representation and involvement in negotiations with third parties.",
+      p6: "Our attorneys offer clients an individual strategic defense plan and effective methods for resolving legal problems. The bureau provides legal consultation in all branches of law in Georgian, Russian, and English, as well as through an electronic portal.",
       v1title: "Independence & Trust",
       v1desc:
         "Guided by independence, trust, confidentiality, and prioritization of client interests.",
       v2title: "Strategic Defense",
       v2desc:
-        "Individual strategic defense plan with effective ways of resolving legal problems.",
+        "Individual strategic defense plan with effective methods for resolving legal problems.",
       v3title: "Multi-language Service",
-      v3desc: "Legal consultation in Georgian, Russian, and English languages.",
-      quote: "Our success is your desired outcome...",
+      v3desc:
+        "Legal consultation in Georgian, Russian, and English, also via electronic portal.",
     },
     services: {
       tag: "Practice Areas",
@@ -244,15 +243,16 @@ export const translations = {
       tag: "Our Attorneys",
       title: "Meet the Team",
       m1name: "Tamar Khachirashvili",
-      m1role: "Founding Attorney",
       m1bio:
         "Qualified attorney with 15+ years of experience in corporate, criminal, and civil law.",
-      m2name: "Your Name Here",
-      m2role: "Senior Associate",
-      m2bio: "Looking to join the team? Reach out to the office.",
-      m3name: "Your Name Here",
-      m3role: "Associate Attorney",
-      m3bio: "Bio to be updated. Contact the office for more information.",
+      m2name: "Irakli Khimshiashvili",
+      m2bio: "Experienced attorney who enjoys high reputation and trust.",
+      m3name: "Megi Abuladze",
+      m3bio:
+        "Qualified attorney offering clients an individual strategic approach.",
+      m4name: "Nano Liparteliani",
+      m4bio:
+        "Experienced attorney protecting client interests before courts of all instances.",
     },
     contact: {
       tag: "Get in Touch",
@@ -346,24 +346,21 @@ export const translations = {
     },
     about: {
       tag: "О бюро",
-      title: "Юридическое бюро Тамар Хачирашвили",
-      p1: "«Юридическое бюро Тамар Хачирашвили» предоставляет широкий спектр квалифицированных юридических услуг как местным, так и иностранным физическим лицам, юридическим лицам и организациям.",
-      p2: "Тамар Хачирашвили является основателем этого бюро общей практики и активно занимается правовой защитой на протяжении 15 лет.",
-      p3: "В бюро работают высококвалифицированные, многопрофильные и опытные практикующие адвокаты.",
-      p4: "Практика бюро охватывает уголовное, гражданское, административное, международное, конституционное, корпоративное, трудовое, налоговое и другие отрасли права.",
-      p5: "В полном соответствии с этическими нормами адвокаты бюро защищают и представляют интересы клиентов в следственных органах, судах всех инстанций, медиации, арбитраже и всех других органах.",
-      p6: "Бюро обеспечивает юридические консультации на грузинском, русском и английском языках.",
-      p7: "Наш успех — это ваш желаемый результат...",
+      p1: "«Юридическое бюро Тамар Хачирашвили» предоставляет широкий спектр квалифицированных юридических услуг местным и иностранным физическим лицам, юридическим лицам и организациям.",
+      p2: "Тамар Хачирашвили — основатель этого бюро общей практики, на протяжении 15 лет занимается адвокатской деятельностью. Бюро укомплектовано квалифицированными, многопрофильными и опытными практикующими адвокатами, пользующимися высокой репутацией и доверием на протяжении многих лет.",
+      p3: "Практика бюро охватывает уголовное, гражданское, административное, международное, конституционное, корпоративное, трудовое, налоговое и другие отрасли права. Все партнёры-адвокаты бюро имеют специализацию в области ювенальной юстиции и обладают многолетним опытом как в уголовном, так и в гражданском направлении.",
+      p4: "С учётом профессиональных и нравственных обязательств перед обществом, адвокаты бюро, при полном соблюдении этических норм и высоких стандартов профессионального достоинства, защищают и представляют интересы клиентов в следственных органах, судах всех инстанций, медиации, арбитраже и всех других органах и учреждениях.",
+      p5: "Под руководством адвоката соответствующего профиля бюро обеспечивает разработку правовых заключений и рекомендаций, составление договоров и бизнес-сделок, ориентированных на интересы клиента, а также представительство и участие в переговорах с третьими лицами.",
+      p6: "Наши адвокаты предлагают клиентам индивидуальный стратегический план защиты и эффективные методы решения правовых проблем. Бюро предоставляет юридические консультации во всех отраслях права на грузинском, русском и английском языках, а также через электронный портал.",
       v1title: "Независимость и доверие",
       v1desc:
         "Руководствуется принципами независимости, доверия, конфиденциальности и приоритета интересов клиента.",
       v2title: "Стратегическая защита",
       v2desc:
-        "Индивидуальный стратегический план защиты с эффективными способами решения правовых проблем.",
+        "Индивидуальный стратегический план защиты с эффективными методами решения правовых проблем.",
       v3title: "Многоязычный сервис",
       v3desc:
-        "Юридические консультации на грузинском, русском и английском языках.",
-      quote: "Наш успех — это ваш желаемый результат...",
+        "Юридические консультации на грузинском, русском и английском языках, а также через электронный портал.",
     },
     services: {
       tag: "Отрасли права",
@@ -406,15 +403,16 @@ export const translations = {
       tag: "Наши адвокаты",
       title: "Познакомьтесь с командой",
       m1name: "Тамар Хачирашвили",
-      m1role: "Основатель бюро",
       m1bio:
         "Квалифицированный адвокат с более чем 15-летним опытом в корпоративном, уголовном и гражданском праве.",
-      m2name: "Ваше имя",
-      m2role: "Старший партнёр",
-      m2bio: "Хотите присоединиться к команде? Свяжитесь с бюро.",
-      m3name: "Ваше имя",
-      m3role: "Ассоциированный адвокат",
-      m3bio: "Биография будет обновлена.",
+      m2name: "Ираклий Химшиашвили",
+      m2bio: "Опытный адвокат, пользующийся высокой репутацией и доверием.",
+      m3name: "Меги Абуладзе",
+      m3bio:
+        "Квалифицированный адвокат, предлагающий клиентам индивидуальный стратегический подход.",
+      m4name: "Нано Липартелиани",
+      m4bio:
+        "Опытный адвокат, защищающий интересы клиентов в судах всех инстанций.",
     },
     contact: {
       tag: "Свяжитесь с нами",
@@ -508,23 +506,21 @@ export const translations = {
     },
     about: {
       tag: "Büro Hakkında",
-      title: "Tamar Kaçiraşvili Hukuk Bürosu",
-      p1: '"Tamar Kaçiraşvili Hukuk Bürosu", hem yerel hem de yabancı gerçek kişilere, tüzel kişilere ve kuruluşlara geniş bir yelpazede nitelikli hukuki hizmetler sunmaktadır.',
-      p2: "Tamar Kaçiraşvili, bu genel hukuk bürosunun kurucusudur ve 15 yıldır aktif olarak hukuki savunuculuk alanında çalışmaktadır.",
-      p3: "Büro, yıllar içinde yüksek itibar ve güven kazanmış, son derece nitelikli, çok profilli ve deneyimli uygulayıcı avukatlardan oluşmaktadır.",
-      p4: "Büronun uygulamaları ceza, medeni, idare, uluslararası, anayasa, kurumsal, iş, vergi ve diğer hukuk alanlarını kapsamaktadır.",
-      p5: "Etik normlara tam uyumla, büronun avukatları soruşturma organları, tüm derece mahkemeleri, arabuluculuk, tahkim ve diğer tüm kurumlarda müvekkil çıkarlarını korur ve temsil eder.",
-      p6: "Büro, Gürcüce, Rusça ve İngilizce dillerinde hukuki danışmanlık hizmeti sunmaktadır.",
-      p7: "Başarımız, sizin istediğiniz sonuçtur...",
+      p1: '"Tamar Kaçiraşvili Hukuk Bürosu", yerel ve yabancı gerçek kişilere, tüzel kişilere ve kuruluşlara geniş bir yelpazede nitelikli hukuki hizmetler sunmaktadır.',
+      p2: "Tamar Kaçiraşvili, bu genel hukuk bürosunun kurucu avukatıdır ve 15 yıldır hukuki savunuculuk yapmaktadır. Büro, yıllar içinde yüksek itibar ve güven kazanmış, nitelikli, çok profilli ve deneyimli uygulayıcı avukatlardan oluşmaktadır.",
+      p3: "Büronun uygulamaları ceza, medeni, idare, uluslararası, anayasa, kurumsal, iş, vergi ve diğer hukuk alanlarını kapsamaktadır. Büronun tüm ortak avukatları çocuk adaleti süreci uzmanlığına sahiptir ve hem ceza hem de medeni hukuk alanında çok yıllık deneyime sahiptir.",
+      p4: "Topluma karşı mesleki ve ahlaki sorumluluklarını dikkate alarak, büronun avukatları etik normlara tam uyum ve yüksek mesleki onur standardıyla, soruşturma organları, tüm derece mahkemeleri, arabuluculuk, tahkim ve diğer tüm kurumlarda müvekkil çıkarlarını korur ve temsil eder.",
+      p5: "İlgili profildeki bir avukatın rehberliğinde büro, hukuki görüş ve tavsiyelerin geliştirilmesini, müvekkil odaklı sözleşmelerin ve ticari anlaşmaların hazırlanmasını, üçüncü taraflarla temsil ve müzakere süreçlerine katılımı sağlar.",
+      p6: "Avukatlarımız müvekkillere bireysel stratejik savunma planı ve hukuki sorunları çözmenin etkili yöntemlerini sunar. Büro, Gürcüce, Rusça ve İngilizce dillerinde, ayrıca elektronik portal üzerinden tüm hukuk alanlarında danışmanlık sağlar.",
       v1title: "Bağımsızlık ve Güven",
       v1desc:
         "Bağımsızlık, güven, gizlilik ve müvekkil çıkarlarının önceliklendirilmesi ilkeleriyle yönlendirilir.",
       v2title: "Stratejik Savunma",
       v2desc:
-        "Hukuki sorunları çözmenin etkili yollarıyla bireysel stratejik savunma planı.",
+        "Hukuki sorunları çözmenin etkili yöntemleriyle bireysel stratejik savunma planı.",
       v3title: "Çok Dilli Hizmet",
-      v3desc: "Gürcüce, Rusça ve İngilizce dillerinde hukuki danışmanlık.",
-      quote: "Başarımız, sizin istediğiniz sonuçtur...",
+      v3desc:
+        "Gürcüce, Rusça ve İngilizce dillerinde, ayrıca elektronik portal üzerinden hukuki danışmanlık.",
     },
     services: {
       tag: "Hukuk Alanları",
@@ -563,19 +559,19 @@ export const translations = {
       s16name: "Yatırım Hukuku",
       s16desc: "Yatırım projeleri, sözleşmeler ve koruma.",
     },
-    team: {
+    jsteam: {
       tag: "Avukatlarımız",
       title: "Ekibimizle Tanışın",
       m1name: "Tamar Kaçiraşvili",
-      m1role: "Kurucu Avukat",
       m1bio:
         "Kurumsal, cezai ve medeni hukukta 15+ yıllık deneyime sahip nitelikli avukat.",
-      m2name: "Adınız Burada",
-      m2role: "Kıdemli Avukat",
-      m2bio: "Ekibe katılmak ister misiniz? Ofisle iletişime geçin.",
-      m3name: "Adınız Burada",
-      m3role: "Ortak Avukat",
-      m3bio: "Biyografi güncellenecek.",
+      m2name: "İrakli Himşiaşvili",
+      m2bio: "Yüksek itibar ve güvene sahip deneyimli avukat.",
+      m3name: "Megi Abuladze",
+      m3bio: "Müvekkillere bireysel stratejik yaklaşım sunan nitelikli avukat.",
+      m4name: "Nano Lipartiani",
+      m4bio:
+        "Tüm derece mahkemelerde müvekkil çıkarlarını koruyan deneyimli avukat.",
     },
     contact: {
       tag: "İletişime Geçin",
