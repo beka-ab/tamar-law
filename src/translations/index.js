@@ -80,19 +80,23 @@ export const translations = {
     },
     team: {
       tag: "ჩვენი ადვოკატები",
-      title: "გუნდს გაიცანით",
       m1name: "თამარ ხაჩირაშვილი",
       m1bio:
         "კვალიფიციური ადვოკატი 15+ წლიანი გამოცდილებით კორპორაციულ, სისხლის სამართლის და სამოქალაქო საქმეებში.",
-      m2name: "ირაკლი ხიმშიაშვილი",
+      m2name: "ნანო ლიპარტია",
       m2bio:
-        "გამოცდილი ადვოკატი, რომელიც სარგებლობს მაღალი რეპუტაციითა და სანდოობით.",
-      m3name: "მეგი აბულაძე",
+        "გამოცდილი ადვოკატი, რომელიც იცავს კლიენტთა ინტერესებს ყველა ინსტანციის სასამართლოში.",
+      m3name: "თეონა ეცადეიშვილი",
       m3bio:
         "კვალიფიციური ადვოკატი, რომელიც კლიენტებს სთავაზობს ინდივიდუალურ სტრატეგიულ მიდგომას.",
-      m4name: "ნანო ლიპარტია",
+      m4name: "მეგი აბულაძე",
       m4bio:
-        "გამოცდილი ადვოკატი, რომელიც იცავს კლიენტთა ინტერესებს ყველა ინსტანციის სასამართლოში.",
+        "გამოცდილი ადვოკატი, რომელიც სარგებლობს მაღალი რეპუტაციითა და სანდოობით.",
+      m5name: "ირაკლი ხიმშიაშვილი",
+      m5bio: "კვალიფიციური ადვოკატი, გამოცდილი სხვადასხვა სამართლის სფეროში.",
+      m6name: "ბექა მოსაშვილი",
+      m6bio:
+        "გამოცდილი ადვოკატი, რომელიც კლიენტის ინტერესებს მაქსიმალური ეფექტურობით იცავს.",
     },
     contact: {
       tag: "დაგვიკავშირდით",
@@ -241,18 +245,22 @@ export const translations = {
     },
     team: {
       tag: "Our Attorneys",
-      title: "Meet the Team",
       m1name: "Tamar Khachirashvili",
       m1bio:
         "Qualified attorney with 15+ years of experience in corporate, criminal, and civil law.",
-      m2name: "Irakli Khimshiashvili",
-      m2bio: "Experienced attorney who enjoys high reputation and trust.",
-      m3name: "Megi Abuladze",
+      m2name: "Nano Liparteliani",
+      m2bio:
+        "Experienced attorney protecting client interests before courts of all instances.",
+      m3name: "Teona Etsadeyshvili",
       m3bio:
         "Qualified attorney offering clients an individual strategic approach.",
-      m4name: "Nano Liparteliani",
-      m4bio:
-        "Experienced attorney protecting client interests before courts of all instances.",
+      m4name: "Megi Abuladze",
+      m4bio: "Experienced attorney who enjoys high reputation and trust.",
+      m5name: "Irakli Khimshiashvili",
+      m5bio: "Qualified attorney experienced in various fields of law.",
+      m6name: "Beka Mosashvili",
+      m6bio:
+        "Experienced attorney protecting client interests with maximum effectiveness.",
     },
     contact: {
       tag: "Get in Touch",
@@ -401,18 +409,22 @@ export const translations = {
     },
     team: {
       tag: "Наши адвокаты",
-      title: "Познакомьтесь с командой",
       m1name: "Тамар Хачирашвили",
       m1bio:
         "Квалифицированный адвокат с более чем 15-летним опытом в корпоративном, уголовном и гражданском праве.",
-      m2name: "Ираклий Химшиашвили",
-      m2bio: "Опытный адвокат, пользующийся высокой репутацией и доверием.",
-      m3name: "Меги Абуладзе",
+      m2name: "Нано Липартелиани",
+      m2bio:
+        "Опытный адвокат, защищающий интересы клиентов в судах всех инстанций.",
+      m3name: "Теона Эцадеишвили",
       m3bio:
         "Квалифицированный адвокат, предлагающий клиентам индивидуальный стратегический подход.",
-      m4name: "Нано Липартелиани",
-      m4bio:
-        "Опытный адвокат, защищающий интересы клиентов в судах всех инстанций.",
+      m4name: "Меги Абуладзе",
+      m4bio: "Опытный адвокат, пользующийся высокой репутацией и доверием.",
+      m5name: "Ираклий Химшиашвили",
+      m5bio: "Квалифицированный адвокат с опытом в различных отраслях права.",
+      m6name: "Бека Мосашвили",
+      m6bio:
+        "Опытный адвокат, защищающий интересы клиентов с максимальной эффективностью.",
     },
     contact: {
       tag: "Свяжитесь с нами",
@@ -559,19 +571,23 @@ export const translations = {
       s16name: "Yatırım Hukuku",
       s16desc: "Yatırım projeleri, sözleşmeler ve koruma.",
     },
-    jsteam: {
+    team: {
       tag: "Avukatlarımız",
-      title: "Ekibimizle Tanışın",
       m1name: "Tamar Kaçiraşvili",
       m1bio:
         "Kurumsal, cezai ve medeni hukukta 15+ yıllık deneyime sahip nitelikli avukat.",
-      m2name: "İrakli Himşiaşvili",
-      m2bio: "Yüksek itibar ve güvene sahip deneyimli avukat.",
-      m3name: "Megi Abuladze",
-      m3bio: "Müvekkillere bireysel stratejik yaklaşım sunan nitelikli avukat.",
-      m4name: "Nano Lipartiani",
-      m4bio:
+      m2name: "Nano Liparteliani",
+      m2bio:
         "Tüm derece mahkemelerde müvekkil çıkarlarını koruyan deneyimli avukat.",
+      m3name: "Teona Etsadeyshvili",
+      m3bio: "Müvekkillere bireysel stratejik yaklaşım sunan nitelikli avukat.",
+      m4name: "Megi Abuladze",
+      m4bio: "Yüksek itibar ve güvene sahip deneyimli avukat.",
+      m5name: "İrakli Himşiaşvili",
+      m5bio: "Çeşitli hukuk alanlarında deneyimli nitelikli avukat.",
+      m6name: "Beka Mosashvili",
+      m6bio:
+        "Müvekkil çıkarlarını maksimum etkinlikle koruyan deneyimli avukat.",
     },
     contact: {
       tag: "İletişime Geçin",
