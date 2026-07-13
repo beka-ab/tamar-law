@@ -19,6 +19,7 @@ export default function Contact({ t }) {
   };
 
   const phone = "+995 595 037 177";
+  const phonetwo = "+995 577 42 09 43";
   const phoneDisplay = "995595 037 177";
 
   return (
@@ -34,6 +35,7 @@ export default function Contact({ t }) {
           <div>
             <div className="contact-label">{t.contact.phoneLabel}</div>
             <div className="contact-val">{phoneDisplay}</div>
+            <div className="contact-val">{phonetwo}</div>
           </div>
           <div>
             <div className="contact-label">{t.contact.emailLabel}</div>
@@ -48,6 +50,12 @@ export default function Contact({ t }) {
             <div className="contact-buttons">
               <a
                 href={"tel:+" + phone}
+                className="contact-btn contact-btn-call"
+              >
+                📞 Call
+              </a>
+              <a
+                href={"tel:+" + phonetwo}
                 className="contact-btn contact-btn-call"
               >
                 📞 Call
