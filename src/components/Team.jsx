@@ -1,8 +1,8 @@
 export default function Team({ t }) {
   const withPhoto = [
     { name: t.team.m1name, bio: t.team.m1bio, photo: "/src/assets/tamar.jpg" },
-    { name: t.team.m2name, bio: t.team.m2bio, photo: "/src/assets/nano.jpg" },
-    { name: t.team.m3name, bio: t.team.m3bio, photo: "/src/assets/teona.jpg" },
+    { name: t.team.m2name, bio: t.team.m2bio, photo: "/src/assets/nano.PNG" },
+    { name: t.team.m3name, bio: t.team.m3bio, photo: "/src/assets/teona.JPG" },
   ];
 
   const noPhoto = [

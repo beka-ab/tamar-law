@@ -1,4 +1,4 @@
-import aboutPhoto from "../assets/Photo.jpg";
+import aboutPhoto from "../assets/tamar.jpg";
 
 export default function About({ t }) {
   return (
