@@ -57,7 +57,7 @@ export const translations = {
       s5desc: "განქორწინება, მეურვეობა, მემკვიდრეობა.",
       s6name: "ინტელექტუალური საკუთრება",
       s6desc: "საავტორო უფლებები, სავაჭრო ნიშნები, პატენტები.",
-      s7name: "კორპორაციული სამართალი",
+      s7name: "საკორპორაციო სამართალი",
       s7desc: "საწარმოთა რეგისტრაცია, კორპორაციული მართვა.",
       s8name: "საგადასახადო სამართალი",
       s8desc: "საგადასახადო კონსულტაცია, დავები, ოპტიმიზაცია.",
@@ -92,6 +92,8 @@ export const translations = {
       m5bio: "საერთო სპეციალიზაციის ადვოკატი",
       m6name: "ბექა მოსაშვილი",
       m6bio: "საერთო სპეციალიზაციის ადვოკატი",
+      m7name: "ნიკა რამიშვილი",
+      m7bio: "სამოქალაქო და ადმინისტრაციული სამართლის სპეციალიზაციის ადვოკატი.",
     },
     contact: {
       tag: "დაგვიკავშირდით",
@@ -117,7 +119,7 @@ export const translations = {
         "სახელშეკრულებო სამართალი",
         "საოჯახო/სამემკვიდრეო სამართალი",
         "ინტელექტუალური საკუთრება",
-        "კორპორაციული სამართალი",
+        "საკორპორაციო სამართალი",
         "საგადასახადო სამართალი",
         "საიმიგრაციო სამართალი",
         "სამშენებლო სამართალი",
@@ -256,6 +258,8 @@ export const translations = {
       m6name: "Beka Mosashvili",
       m6bio:
         "Experienced attorney protecting client interests with maximum effectiveness.",
+      m7name: "Nika Ramishvili",
+      m7bio: "Attorney specializing in civil and administrative law.",
     },
     contact: {
       tag: "Get in Touch",
@@ -420,6 +424,9 @@ export const translations = {
       m6name: "Бека Мосашвили",
       m6bio:
         "Опытный адвокат, защищающий интересы клиентов с максимальной эффективностью.",
+      m7name: "Ника Рамишвили",
+      m7bio:
+        "Адвокат со специализацией в гражданском и административном праве.",
     },
     contact: {
       tag: "Свяжитесь с нами",
@@ -583,6 +590,8 @@ export const translations = {
       m6name: "Beka Mosashvili",
       m6bio:
         "Müvekkil çıkarlarını maksimum etkinlikle koruyan deneyimli avukat.",
+      m7name: "Nika Ramişvili",
+      m7bio: "Medeni ve idare hukuku alanında uzman avukat.",
     },
     contact: {
       tag: "İletişime Geçin",
