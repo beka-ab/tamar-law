@@ -1,4 +1,4 @@
-import tamarPhoto from "../assets/tamar.jpg";
+import tamarPhoto from "../assets/tamar.png";
 import nanoPhoto from "../assets/nano.PNG";
 import teonaPhoto from "../assets/teona.JPG";
 import nikaPhoto from "../assets/nika.jpeg";
