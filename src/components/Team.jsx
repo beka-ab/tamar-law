@@ -1,7 +1,7 @@
 import tamarPhoto from "../assets/tamar.png";
 import nanoPhoto from "../assets/nano.PNG";
 import teonaPhoto from "../assets/teona.JPG";
-import nikaPhoto from "../assets/nika.jpeg";
+import nikaPhoto from "../assets/nika.jpg";
 
 export default function Team({ t }) {
   const withPhoto = [
