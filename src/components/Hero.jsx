@@ -1,4 +1,4 @@
-import heroPhoto from "../assets/landing.jpg";
+import heroPhoto from "../assets/landing.png";
 
 export default function Hero() {
   return (
