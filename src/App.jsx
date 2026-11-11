@@ -18,7 +18,7 @@ import FloatingWhatsApp from "./components/FloatingWhatsApp.jsx";
 import "./App.css";
 
 function App() {
-  const [lang, setLang] = useState("en");
+  const [lang, setLang] = useState("ka");
   const t = translations[lang];
 
   return (
