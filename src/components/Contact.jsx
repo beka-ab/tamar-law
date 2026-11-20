@@ -1,4 +1,11 @@
 import { useState } from "react";
+const reportConversion = () => {
+  if (typeof window.gtag === "function") {
+    window.gtag("event", "conversion", {
+      send_to: "AW-18492632780/rYceCNTRqbYdEMzd_PFE",
+    });
+  }
+};
 
 export default function Contact({ t }) {
   const [form, setForm] = useState({
@@ -14,6 +21,7 @@ export default function Contact({ t }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    reportConversion();
     alert("✓ " + t.contact.send);
     setForm({ fname: "", lname: "", email: "", area: "", message: "" });
   };
@@ -50,6 +58,7 @@ export default function Contact({ t }) {
             <div className="contact-buttons">
               <a
                 href={"tel:+" + phone}
+                onClick={reportConversion}
                 className="contact-btn contact-btn-call"
               >
                 📞 Call
@@ -62,6 +71,7 @@ export default function Contact({ t }) {
               </a>
               <a
                 href={"https://wa.me/" + phone}
+                onClick={reportConversion}
                 target="_blank"
                 rel="noreferrer"
                 className="contact-btn contact-btn-whatsapp"
@@ -70,6 +80,7 @@ export default function Contact({ t }) {
               </a>
               <a
                 href={"viber://chat?number=" + phone}
+                onClick={reportConversion}
                 className="contact-btn contact-btn-viber"
               >
                 Viber
