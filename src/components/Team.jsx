@@ -3,6 +3,7 @@ import nanoPhoto from "../assets/nano.PNG";
 import teonaPhoto from "../assets/teona.JPG";
 import nikaPhoto from "../assets/nika.jpeg";
 import bekaPhoto from "../assets/beka.jpg";
+import megiPhoto from "../assets/megi.png";
 
 export default function Team({ t }) {
   const withPhoto = [
@@ -11,12 +12,10 @@ export default function Team({ t }) {
     { name: t.team.m3name, bio: t.team.m3bio, photo: teonaPhoto },
     { name: t.team.m7name, bio: t.team.m7bio, photo: nikaPhoto },
     { name: t.team.m6name, bio: t.team.m6bio, photo: bekaPhoto },
+    { name: t.team.m4name, bio: t.team.m4bio, photo: megiPhoto },
   ];
 
-  const noPhoto = [
-    { name: t.team.m4name, bio: t.team.m4bio, initials: "მა" },
-    { name: t.team.m5name, bio: t.team.m5bio, initials: "იხ" },
-  ];
+  const noPhoto = [{ name: t.team.m5name, bio: t.team.m5bio, initials: "იხ" }];
 
   return (
     <section className="team" id="team">
@@ -35,7 +34,7 @@ export default function Team({ t }) {
           </div>
         ))}
         {noPhoto.map((m, i) => (
-          <div className="team-card" key={i + 5}>
+          <div className="team-card" key={i + 6}>
             <div
               className="team-photo"
               style={{
